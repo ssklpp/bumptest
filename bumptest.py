@@ -1,2 +1,3 @@
 print('Hello, Python')
-print(3+4)
+print('Second')
+print('3rd')
