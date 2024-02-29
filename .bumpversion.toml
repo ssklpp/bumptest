@@ -17,7 +17,7 @@ message = "Bump version: {current_version} to {new_version}"
 current_version = "2.6.0"
 
 [git]
-refspec = "origin/master"
+refspec = "origin/main"
 push = true
 remote = "origin"
 sign = true
