@@ -14,7 +14,7 @@ serialize = ["{major}.{minor}.{patch}"]
 tag_name = "v{new_version}"
 tag_message = "Bump version: {current_version} to {new_version}"
 message = "Bump version: {current_version} to {new_version}"
-current_version = "2.6.0"
+current_version = "2.6.1"
 
 [git]
 refspec = "origin/main"
