@@ -7,6 +7,7 @@ tag_name = "v{new_version}"
 tag_message = "Bump version: {current_version} to {new_version}"
 message = "Bump version: {current_version} to {new_version}"
 current_version = "2.5.10"
+changelog = true
 
 [git]
 refspec = "origin/master"
