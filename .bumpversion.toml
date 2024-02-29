@@ -8,15 +8,6 @@ tag_message = "Bump version: {current_version} to {new_version}"
 message = "Bump version: {current_version} to {new_version}"
 current_version = "2.5.9"
 
-[[tool.bumpversion.files]]
-filename = "CHANGELOG.md"
-search = "Unreleased"
-
-[[tool.bumpversion.files]]
-filename = "CHANGELOG.md"
-search = "{current_version}...HEAD"
-replace = "{current_version}...{new_version}"
-
 [git]
 refspec = "origin/master"
 push = true
