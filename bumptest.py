@@ -1,2 +1,1 @@
-print('changelogmd test')
-print('changelogmd test2')
+print('bump-my-version test')
